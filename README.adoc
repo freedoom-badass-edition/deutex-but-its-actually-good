@@ -1,37 +1,9 @@
-DeuTex
+DeuTex but it's actually good
 ======
 
-DeuTex can do many things with _Doom_, _Freedoom_, _Heretic_, _Hexen_,
-and _Strife_ https://doomwiki.org/wiki/WAD[“WAD”] files, such as
-extracting and inserting graphics, sounds, levels, and other
-resources.  It can be used for creating and modifying IWAD (“Internal
-WAD”) and PWAD (“Patch WAD”) files both.
+This program is Deutex but:
 
-It is a command-line driven program and as such, is suitable for
-scripting such as from a shell script or Makefile.
-
-File formats
-------------
-
-For insertion and extraction, DeuTex supports a few common formats.
-
-For music, DeuTex supports both the DMX “mus” file format native to
-_Doom_, and also MIDI files supported in _Doom_ 1.666 and newer.
-There is no conversion between these formats, they are inserted and
-extracted as-is.
-
-For audio samples, they are saved and read using simple WAV files
-containing only uncompressed PCM audio streams.
-
-For the various forms of graphics, the BMP (uncompressed only), GIF,
-PPM, and PNG footnote:[Requires libpng 1.6 or newer.] formats are
-supported.
-
-Unrecognized-format lumps are saved with +.lmp+ extension in the
-+lumps+ directory and are re-inserted as-is from there.  Levels are
-saved in an encapsulated PWAD file; breaking them apart would not be
-useful for editing and all the lumps that make up a level are
-co-dependent on each other.
+* Unrestricted level names
 
 Building and installing
 -----------------------
@@ -55,21 +27,6 @@ AsciiDoc source in +man/deutex.txt+ is fairly readable on its own.
 To build and install on ReactOS or Microsoft Windows will require an
 environment compatible with Unix shells and programs, such as
 https://cygwin.com/[Cygwin] or http://www.msys2.org/[MSYS2].
-
-History
--------
-
-DeuTex began life as a fork of Doom Editing Utilities (known as DEU
-for short) by Olivier Montanuy in 1994, expunging the graphical user
-interface in favor of command line and scriptable usage scenarios.
-Originally written for DOS, its primary home is now modern Unix and
-Windows systems, and is a fundamental piece to building
-_https://freedoom.github.io/[Freedoom’s]_ IWAD files.
-
-The name comes from a play on LaTeX and in turn TeX, a popular
-typesetting system in academia but no technical connection to DeuTex.
-It is pronounced as two syllables, the first like “due” or “dew,” and
-the second like “tech” (not “tex”!), owing from its namesake.
 
 Copyright
 ---------

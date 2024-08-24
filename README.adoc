@@ -1,5 +1,5 @@
 DeuTex but it's actually good
-======
+=============================
 
 This program is Deutex but:
 

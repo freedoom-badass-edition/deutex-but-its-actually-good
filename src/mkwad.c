@@ -724,8 +724,6 @@ void WADRwriteWADlevel(struct WADINFO *info, const char *file,
     int32_t pos;
     /*char Level[8]; */
     struct WADINFO src;
-    if (IDENTlevel(level) < 0)
-        ProgError("WW79", "Bad level name %s", level);
     src.ok = 0;
     WADRopenR(&src, file);
     /*search for entry in level */

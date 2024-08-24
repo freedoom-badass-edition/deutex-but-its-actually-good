@@ -180,9 +180,6 @@ void CMPOmakePWAD(const char *doomwad, WADTYPE type, const char *PWADname,
             while (TXTentryParse
                    (name, filenam, &X, &Y, &Repeat, TXT, false)) {
                 p = IDENTlevel(name);
-                if (p < 0)
-                    ProgError("CM11", "Illegal level name %s",
-                              lump_name(name));
                 if (!MakeFileName
                     (file, DataDir, "LEVELS", "", filenam, "WAD"))
                     ProgError("CM12", "Can't find level WAD %s",

@@ -24,9 +24,10 @@ particular the DocBook-based `a2x` command for transforming it into
 manpage format.  DeuTex will still build without it, however, and the
 AsciiDoc source in +man/deutex.txt+ is fairly readable on its own.
 
-To build and install on ReactOS or Microsoft Windows will require an
-environment compatible with Unix shells and programs, such as
-https://cygwin.com/[Cygwin] or http://www.msys2.org/[MSYS2].
+To build and install on ReactOS or Microsoft Windows will require knowledge
+of dark magic and an environment compatible with Unix shells 
+and programs, such as https://cygwin.com/[Cygwin] or 
+http://www.msys2.org/[MSYS2].
 
 Copyright
 ---------
